@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: rgb(0, 0, 0);
+}
+.navbar{
+    height: 87px;
+    width: 1728px;
+    border: 1px;
+}
+body h1{
+    position: absolute;
+    height: 745px;
+    width: 1050px;
+    left: 96px;
+    top: 229px;
+    font-size: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 242px;
+    
+}
+.fade-in{
+    margin-top: 30px;
+    animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.header-elements i{
+}
+.header-elements img{
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    top: 602px;
+    left: 994px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    
+}
+
+.aboutus{
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 1352px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+    padding-left: 230px;
+}
+.container{
+    padding-top: 700px;
+}
+.about-contents{
+    margin-top: 700px;
+}
+.image{
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+}
+.para{
+    margin-left: 800px;
+    font-size:xx-large;
+}
+.our-services{
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 82px;
+    top: 2251px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+    color: #000000;
+}
+.container1{
+    position:relative;
+    width: 100%;
+    display: flex;
+}
+.card1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 599px;
+height: 423px;
+left: 82px;
+top: 2464px;
+
+border: 2px solid #000000;
+}
+.card-title1{
+    
+}
+.card2{
+    /* Rectangle 16 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 599px;
+height: 423px;
+left: 747px;
+top: 2464px;
+
+border: 2px solid #000000;
+}
+.card3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 599px;
+height: 423px;
+left: 1412px;
+top: 2464px;
+
+border: 2px solid #000000;
+}
